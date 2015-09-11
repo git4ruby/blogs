@@ -12,6 +12,8 @@ ActiveAdmin.register Post do
 #   permitted << :other if resource.something?
 #   permitted
 # end
+    permit_params :title, :content, :publish, :name
+  
 
 
 end
